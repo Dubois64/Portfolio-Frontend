@@ -1,3 +1,35 @@
+._home-navigation {
+  display: flex;
+  gap: 29px;
+}
+
+._home-word {
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: 7%; /* 1.12px */
+  text-underline-offset: 6%; /* 0.96px */
+  text-underline-position: from-font;
+}
+
+._home-little-word {
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: 7%; /* 1.12px */
+  text-underline-offset: 6%; /* 0.96px */
+  text-underline-position: from-font;
+}
 ._home-image-heron {
   max-width: 100%;
 }
@@ -11,4 +43,28 @@
   font-weight: 300;
   line-height: normal;
   align-self: stretch;
+  margin-top: 5%;
+}
+
+._home-presentation {
+  display: flex;
+  align-items: center;
+}
+
+._home-button {
+  display: flex;
+  height: 42.6px;
+  padding: 10px 54px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  background: #000;
+  color: #fff;
+  font-family: Quicksand;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 40%;
 }
