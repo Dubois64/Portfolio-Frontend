@@ -1,6 +1,7 @@
 ._home-navigation {
   display: flex;
   gap: 29px;
+  margin-left: 80%;
 }
 
 ._home-word {
@@ -67,4 +68,30 @@
   font-weight: 300;
   line-height: normal;
   margin-top: 40%;
+}
+
+._home-contact {
+  color: #000;
+  text-align: justify;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+  font-family: Quicksand;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+._home-logo {
+  width: 53px;
+  height: 53px;
+  display: inline-flex;
+  align-items: center;
+  gap: 66px;
+  margin-left: 8.3%;
+  display: flex;
+  width: 146px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3%;
 }
