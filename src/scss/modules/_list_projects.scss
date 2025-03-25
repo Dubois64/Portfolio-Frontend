@@ -1,0 +1,77 @@
+h1 {
+  margin-top: 2%;
+  margin-left: 7%;
+  margin-bottom: 2%;
+  color: #000;
+  font-family: "IM FELL French Canon";
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: 2%; /* 1.7px */
+  text-underline-offset: 20.5%; /* 17.425px */
+  text-underline-position: from-font;
+}
+
+.title-project {
+  color: #000;
+  font-family: "IM FELL French Canon";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+}
+
+._list-title-flex {
+  display: flex;
+  gap: 15%;
+}
+
+._list-type-project {
+  color: #3f425f;
+  font-family: "Gill Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  align-self: center;
+}
+
+._list-description {
+  margin-top: 5%;
+  color: #000;
+  font-family: Quicksand;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  -webkit-mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0)
+  );
+  mask-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+._list-button {
+  display: flex;
+  width: 261px;
+  height: 51px;
+  padding: 11px 41px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  background: #000;
+  margin-top: 34%;
+}

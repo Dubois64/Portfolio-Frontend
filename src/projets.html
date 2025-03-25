@@ -7,17 +7,36 @@
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
+    <div class="_home-navigation">
+      <a href="index.html">Accueil</a>
+      <a href="projets.html">Projets</a>
+    </div>
+
     <h1>Projets</h1>
-    <a href="index.html">Accueil</a>
-    <a href="projets.html">Projets</a>
 
     <extends src="project.html" locals='{"title":"Fear"}'></extends>
     <a href="fear.html">Video</a>
 
     <div class="container">
       <div class="row">
-        <div class="col-4">image projet</div>
-        <div class="col-5">description</div>
+        <div class="col-4">
+          <img src="img/bouquetin-blackandwhite.png" />
+        </div>
+        <div class="col-5">
+          <div class="_list-title-flex">
+            <p class="title-project">Fear</p>
+            <p class="_list-type-project">Vidéo / Photographie</p>
+            <p class="_list-type-project">2024</p>
+          </div>
+          <p class="_list-description">
+            Fear est un ensemble de moments, retranscrit par des photos et des
+            vidéos. Dans un but de sensibilisation à la nature ...
+          </p>
+
+          <div class="_list-button">
+            <p class="_list-button-text">Découvrir le projet</p>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -26,8 +45,8 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-4">image projet</div>
-        <div class="col-5">description</div>
+        <div class="col-5">img</div>
+        <div class="col-4">titre</div>
       </div>
     </div>
 
