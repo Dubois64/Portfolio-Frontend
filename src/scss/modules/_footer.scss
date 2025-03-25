@@ -1,0 +1,52 @@
+.footer-image {
+  transform: rotate(-0.684deg);
+  flex-shrink: 0;
+}
+
+.text-bold {
+  color: #fff;
+  font-family: "Gill Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: 2%; /* 0.4px */
+  text-underline-offset: 20.5%; /* 4.1px */
+  text-underline-position: from-font;
+}
+
+.footer-image-logo {
+  width: 34px;
+}
+
+.image-and-text-link-footer {
+  display: flex;
+  gap: 10%;
+  align-items: center;
+  color: #fff;
+  text-align: justify;
+  font-family: Quicksand;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.image-and-text-link-mail-footer {
+  display: flex;
+  gap: 6%;
+  align-items: center;
+  color: #fff;
+  text-align: justify;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.footer-image {
+  background-size: cover;
+}
