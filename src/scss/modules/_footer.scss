@@ -10,7 +10,6 @@
   text-decoration-skip-ink: none;
   text-decoration-thickness: 2%; /* 0.4px */
   text-underline-offset: 20.5%; /* 4.1px */
-  text-underline-position: from-font;
 }
 
 .footer-image-logo {
@@ -44,4 +43,5 @@
 
 .footer-image {
   background-size: cover;
+  display: block;
 }
