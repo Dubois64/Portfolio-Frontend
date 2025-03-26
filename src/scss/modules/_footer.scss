@@ -10,6 +10,7 @@
   text-decoration-skip-ink: none;
   text-decoration-thickness: 2%; /* 0.4px */
   text-underline-offset: 20.5%; /* 4.1px */
+  margin-top: 70%;
 }
 
 .footer-image-logo {
@@ -42,6 +43,8 @@
 }
 
 .footer-image {
+  background-image: url(../img/index.png);
+  height: 200vh;
   background-size: cover;
-  display: block;
+  background-position: center;
 }
