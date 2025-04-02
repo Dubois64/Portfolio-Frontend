@@ -1,8 +1,48 @@
+.fear-navigation {
+  display: flex;
+  gap: 40px;
+  justify-content: end;
+  margin-right: 8%;
+  margin-top: 3%;
+}
+
+.fear-word {
+  font-family: "Gill Sans";
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: 7%; /* 1.12px */
+  text-underline-offset: 6%; /* 0.96px */
+  text-underline-position: from-font;
+}
+
 .fear-text-project {
-  color: #000;
   text-align: justify;
   font-size: 18px;
-  font-style: normal;
   font-weight: 300;
-  line-height: normal;
+  margin-top: 2%;
+}
+
+.fear-link-next-project {
+  display: inline-flex;
+  align-items: center;
+  gap: 77px;
+  font-family: Quicksand;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: 7%; /* 1.68px */
+  text-underline-offset: 24%; /* 5.76px */
+  text-underline-position: from-font;
+  margin-left: 6%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.fear-text-conclusion {
+  margin-top: 2%;
 }

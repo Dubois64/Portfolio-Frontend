@@ -1,4 +1,4 @@
-.text-bold {
+.footer-text-bold {
   color: #fff;
   font-family: "Gill Sans";
   font-size: 20px;
@@ -18,7 +18,7 @@
   fill: #fff;
 }
 
-.image-and-text-link-footer {
+.footer-image-and-text-link {
   display: flex;
   gap: 10%;
   align-items: center;
@@ -26,21 +26,17 @@
   text-align: justify;
   font-family: Quicksand;
   font-size: 24px;
-  font-style: normal;
   font-weight: 300;
-  line-height: normal;
 }
 
-.image-and-text-link-mail-footer {
+.footer-image-and-text-link-mail {
   display: flex;
   gap: 6%;
   align-items: center;
   color: #fff;
   text-align: justify;
   font-size: 24px;
-  font-style: normal;
   font-weight: 300;
-  line-height: normal;
 }
 
 .footer-image {

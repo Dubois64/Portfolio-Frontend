@@ -1,38 +1,30 @@
-._list-card {
+.list-card {
   margin-top: 5%;
 }
 .title-project {
-  color: #000;
   font-family: "IM FELL French Canon";
   font-size: 48px;
-  font-style: normal;
   font-weight: 100;
-  line-height: normal;
 }
 
-._list-title-flex {
+.list-title-flex {
   display: flex;
   gap: 15%;
 }
 
-._list-type-project {
+.list-type-project {
   color: #3f425f;
   font-family: "Gill Sans";
   font-size: 16px;
-  font-style: normal;
   font-weight: 300;
-  line-height: normal;
   align-self: center;
 }
 
-._list-description {
+.list-description {
   margin-top: 5%;
-  color: #000;
   font-family: Quicksand;
   font-size: 18px;
-  font-style: normal;
   font-weight: 300;
-  line-height: normal;
   -webkit-mask-image: linear-gradient(
     to right,
     rgba(0, 0, 0, 1),
@@ -41,7 +33,7 @@
   mask-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
 
-._list-button {
+.list-button {
   display: flex;
   width: 261px;
   height: 51px;
@@ -54,9 +46,13 @@
   text-align: center;
   font-family: Quicksand;
   font-size: 20px;
-  font-style: normal;
   font-weight: 300;
-  line-height: normal;
   background: #000;
   margin-top: 34%;
+}
+
+.liste-text-bold {
+  font-family: "IM FELL French Canon";
+  font-size: 48px;
+  font-weight: 400;
 }

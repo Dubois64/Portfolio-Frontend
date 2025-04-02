@@ -15,7 +15,15 @@ video {
 }
 
 body {
+  color: #000;
   font-family: Quicksand;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "IM FELL French Canon";
+  font-weight: 400;
 }
 
 h1 {
@@ -37,7 +45,6 @@ h1 {
 }
 
 h2 {
-  color: #000;
   font-family: "IM FELL French Canon";
   font-size: 85px;
   font-style: normal;

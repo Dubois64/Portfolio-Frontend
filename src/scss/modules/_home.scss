@@ -5,18 +5,21 @@
   background-position: center;
 }
 
-._home-navigation {
+.home-navigation {
   display: flex;
   gap: 29px;
   justify-content: end;
+  display: flex;
+  gap: 40px;
+  justify-content: end;
+  margin-right: 8%;
+  margin-top: 3%;
 }
 
-._home-word {
+.home-word {
   font-family: Quicksand;
   font-size: 16px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
   text-decoration-line: underline;
   text-decoration-style: solid;
   text-decoration-skip-ink: auto;
@@ -26,12 +29,10 @@
   color: #fff;
 }
 
-._home-little-word {
+.home-little-word {
   font-family: Quicksand;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   text-decoration-line: underline;
   text-decoration-style: solid;
   text-decoration-skip-ink: auto;
@@ -40,29 +41,27 @@
   text-underline-position: from-font;
   color: #fff;
 }
-._home-image-heron {
+.home-image-heron {
   max-width: 100%;
 }
 
-._home-text-intro {
+.home-text-intro {
   color: #000;
   text-align: justify;
   font-family: Quicksand;
   font-size: 16px;
-  font-style: normal;
   font-weight: 300;
-  line-height: normal;
   align-self: stretch;
   margin-top: 5%;
 }
 
-._home-presentation {
+.home-presentation {
   display: flex;
   align-items: center;
   margin-top: 8%;
 }
 
-._home-button {
+.home-button {
   display: flex;
   height: 42.6px;
   padding: 10px 54px;
@@ -74,26 +73,22 @@
   color: #fff;
   font-family: Quicksand;
   font-size: 20px;
-  font-style: normal;
   font-weight: 300;
-  line-height: normal;
   margin-top: 40%;
 }
 
-._home-contact {
+.home-contact {
   color: #000;
   text-align: justify;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #000;
   font-family: Quicksand;
   font-size: 24px;
-  font-style: normal;
   font-weight: 300;
-  line-height: normal;
   margin-top: 6%;
 }
 
-._home-logo {
+.home-logo {
   width: 53px;
   height: 53px;
   display: inline-flex;
