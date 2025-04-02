@@ -12,5 +12,35 @@
 }
 
 .fissure-title {
-  margin
+  margin-left: 7%;
+}
+
+.fissure-txt-presentation {
+  margin-top: 3%;
+}
+
+.fissure-img-1 {
+  margin-top: 2%;
+}
+
+.fissure-img-2 {
+  margin-top: 10%;
+}
+
+.fissure-link-next-project {
+  display: inline-flex;
+  align-items: center;
+  gap: 77px;
+  font-family: Quicksand;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: 7%; /* 1.68px */
+  text-underline-offset: 24%; /* 5.76px */
+  text-underline-position: from-font;
+  margin-left: 6%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
