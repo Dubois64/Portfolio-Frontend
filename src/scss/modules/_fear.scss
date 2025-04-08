@@ -29,7 +29,6 @@
   display: inline-flex;
   align-items: center;
   gap: 77px;
-  font-family: Quicksand;
   font-size: 24px;
   font-weight: 600;
   text-decoration-line: underline;
@@ -49,4 +48,19 @@
 
 h1 {
   color: white;
+}
+
+.fear-theme-project {
+  color: #3f425f;
+  font-family: Quicksand;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.fear-title {
+  display: flex;
+  align-items: baseline;
+  gap: 15px;
 }
