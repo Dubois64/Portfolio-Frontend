@@ -1,7 +1,7 @@
 .list-card {
   margin-top: 5%;
 }
-.title-project {
+.list-title-project {
   font-family: "IM FELL French Canon";
   font-size: 48px;
   font-weight: 100;
@@ -48,11 +48,19 @@
   font-size: 20px;
   font-weight: 300;
   background: #000;
-  margin-top: 34%;
+  margin-top: 25%;
 }
 
-.liste-text-bold {
+.list-text-bold {
   font-family: "IM FELL French Canon";
   font-size: 48px;
   font-weight: 400;
+}
+
+.list-navigation {
+  display: flex;
+  gap: 40px;
+  justify-content: end;
+  margin-right: 8%;
+  margin-top: 3%;
 }
