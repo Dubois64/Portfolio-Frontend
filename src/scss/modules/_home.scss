@@ -74,6 +74,15 @@
   font-size: 20px;
   font-weight: 300;
   margin-top: 40%;
+  transition-property: color;
+  transition-duration: 1s;
+  transition-delay: 0.2s;
+}
+
+.home-button:hover {
+  color: rgb(0, 0, 0);
+  background-color: #fff;
+  border: 1px solid #000;
 }
 
 .home-contact {

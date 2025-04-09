@@ -49,6 +49,15 @@
   font-weight: 300;
   background: #000;
   margin-top: 25%;
+  transition-property: color;
+  transition-duration: 1s;
+  transition-delay: 0.2s;
+}
+
+.list-button:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid #000;
 }
 
 .list-text-bold {

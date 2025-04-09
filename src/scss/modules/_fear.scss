@@ -40,6 +40,13 @@
   margin-left: 6%;
   margin-top: 5%;
   margin-bottom: 5%;
+  transition-property: color;
+  transition-duration: 1s;
+  transition-delay: 0.2s;
+}
+
+.fear-link-next-project :hover {
+  color: #ee4a51;
 }
 
 .fear-text-conclusion {
