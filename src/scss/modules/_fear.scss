@@ -21,7 +21,7 @@
 .fear-text-project {
   text-align: justify;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
   margin-top: 2%;
 }
 
@@ -51,6 +51,13 @@
 
 .fear-text-conclusion {
   margin-top: 2%;
+  color: #000;
+  text-align: justify;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .fear-theme-project {
@@ -63,7 +70,25 @@
 }
 
 .fear-title {
-  display: flex;
-  align-items: baseline;
-  gap: 15px;
+  color: #000;
+  font-family: Lato;
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.fear-background-img {
+  background-image: url(../img/nuagess.jpg);
+}
+
+.title_macking_off {
+  color: #000;
+  font-family: "LEMON MILK";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 4%;
 }
