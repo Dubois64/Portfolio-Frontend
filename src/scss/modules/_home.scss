@@ -77,6 +77,7 @@
   transition-property: color;
   transition-duration: 1s;
   transition-delay: 0.2s;
+  margin-top: 20%;
 }
 
 .home-button:hover {
@@ -108,4 +109,26 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 3%;
+}
+
+.home-titre-propos {
+  color: #000;
+  text-align: right;
+  font-family: "LEMON MILK";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: 2%;
+  text-underline-offset: 20.5%;
+  text-underline-position: from-font;
+  margin-right: 35%;
+  margin-bottom: 10%;
+}
+
+.home-img-contact-1 {
+  margin-left: 10%;
 }
