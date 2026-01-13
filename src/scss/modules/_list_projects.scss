@@ -8,16 +8,17 @@
 }
 
 .list-title-flex {
-  display: flex;
-  gap: 15%;
+  margin-left: 16%;
 }
 
 .list-type-project {
-  color: #3f425f;
-  font-family: "Gill Sans";
-  font-size: 16px;
+  color: #000;
+  font-family: "LEMON MILK";
+  font-size: 20px;
+  font-style: normal;
   font-weight: 300;
-  align-self: center;
+  line-height: normal;
+  text-transform: uppercase;
 }
 
 .list-description {
@@ -72,4 +73,23 @@
   justify-content: end;
   margin-right: 8%;
   margin-top: 3%;
+}
+
+.list-title-underline {
+  color: #000;
+  font-family: "LEMON MILK";
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: 2%; /* 1.7px */
+  text-underline-offset: 20.5%; /* 17.425px */
+  text-underline-position: from-font;
+}
+
+.list-rangée-3-projets {
+  display: flex;
 }
