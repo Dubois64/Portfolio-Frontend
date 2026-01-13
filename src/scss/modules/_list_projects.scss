@@ -92,9 +92,20 @@
 
 .list-rangée-3-projets {
   display: flex;
+
+  gap: 24px;
 }
 
 .list-img-1 {
   margin-left: 20%;
   margin-top: 10%;
+  flex: 0 0 33.333%;
+  flex: 1;
+  max-width: none;
+}
+
+.list-rangée-3-projets img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
