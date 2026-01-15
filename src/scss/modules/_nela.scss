@@ -25,3 +25,61 @@
   background-repeat: no-repeat;
   height: 100vh;
 }
+
+.nela-video {
+  display: flex;
+  justify-content: center;
+  border: 3px solid #fff;
+  width: 358px;
+  height: 637px;
+  aspect-ratio: 358/637;
+}
+
+.nela-txt-presentation-1 {
+  margin-left: 15%;
+  color: #fff;
+  text-align: justify;
+  font-family: Quicksand;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.nela-computer {
+  margin-top: -20%;
+}
+
+.nela-img-composition {
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+}
+
+.nela-txt-presentation-2 {
+  margin-left: 15%;
+  color: #fff;
+  text-align: justify;
+  font-family: Quicksand;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.nela-txt-presentation-3 {
+  margin-left: 15%;
+  color: #fff;
+  text-align: justify;
+  font-family: Quicksand;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 10%;
+}
+
+body.fissure {
+  background-color: black;
+}
