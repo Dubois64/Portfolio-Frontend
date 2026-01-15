@@ -8,7 +8,7 @@
 }
 
 .list-title-flex {
-  margin-left: 11%;
+  margin-left: 5%;
 }
 
 .list-type-project {
@@ -69,7 +69,7 @@
 
 .list-navigation {
   display: flex;
-  gap: 40px;
+  gap: 0px;
   justify-content: end;
   margin-right: 8%;
   margin-top: 3%;
@@ -92,14 +92,11 @@
 
 .list-rangée-3-projets {
   display: flex;
-
-  gap: 24px;
+  margin-left: 5%;
 }
 
 .list-img-1 {
-  margin-left: 20%;
   margin-top: 10%;
-  flex: 0 0 33.333%;
   flex: 1;
   max-width: none;
 }
@@ -108,4 +105,9 @@
   width: 100%;
   height: auto;
   display: block;
+}
+
+.list-background-img {
+  background-size: cover;
+  background-repeat: no-repeat;
 }
