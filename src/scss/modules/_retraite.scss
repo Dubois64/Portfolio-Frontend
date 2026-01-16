@@ -1,0 +1,60 @@
+.retraite-background-img {
+  background-image: url("../img/nouvelles_images_webp/nuage-blanc-retraite-1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.retraite-title {
+  color: #000;
+  font-family: "LEMON MILK";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 9%;
+}
+
+.retraite-txt-presentation {
+  color: #000;
+  text-align: justify;
+  font-family: Quicksand;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.retraite_navigation {
+  color: #000;
+  display: flex;
+  gap: 40px;
+  justify-content: end;
+  margin-right: 8%;
+  margin-top: 3%;
+}
+
+.retraite-mockup-livre-fermé {
+  margin-left: 35%;
+}
+
+.carousel-page-tourne {
+  margin-left: 15%;
+}
+
+input {
+  display: none;
+}
+
+img {
+  display: none;
+  width: 300px;
+}
+
+#p1:checked ~ .img1 {
+  display: block;
+}
+#p2:checked ~ .img2 {
+  display: block;
+}
