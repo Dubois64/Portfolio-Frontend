@@ -7,3 +7,26 @@
   line-height: normal;
   margin-left: 9%;
 }
+
+.liberté-txt-presentation {
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 2%;
+  color: white;
+}
+
+.liberte-video {
+  display: flex;
+  align-items: center;
+  border: 3px solid #fff;
+  margin-left: 10%;
+}
+
+.liberte-background-img {
+  background-image: url("../img/nouvelles_images_webp/liberté-nuages.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
