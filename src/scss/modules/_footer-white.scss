@@ -1,0 +1,45 @@
+.footer-text-bold {
+  color: #fff;
+  font-family: "Gill Sans";
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: 2%; /* 0.4px */
+  text-underline-offset: 20.5%; /* 4.1px */
+  margin-top: 70%;
+}
+
+.footer-image-logo {
+  width: 34px;
+  fill: #fff;
+}
+
+.footer-image-and-text-link {
+  display: flex;
+  gap: 10%;
+  align-items: center;
+  color: #fff;
+  text-align: justify;
+  font-family: Quicksand;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.footer-image-and-text-link-mail {
+  display: flex;
+  gap: 6%;
+  align-items: center;
+  color: #fff;
+  text-align: justify;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.footer-image {
+  background-image: url(../../img/nouvelles_images_webp/footer-blanc.jpg);
+  height: 200vh;
+  background-size: cover;
+  background-position: center;
+}
