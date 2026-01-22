@@ -47,11 +47,6 @@ input {
   display: none;
 }
 
-img {
-  display: none;
-  width: 300px;
-}
-
 #p1:checked ~ .img1 {
   display: block;
 }
