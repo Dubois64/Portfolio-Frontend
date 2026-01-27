@@ -8,14 +8,28 @@
   margin-left: 15%;
 }
 
-.nela-txt-presentation {
-  color: #fff;
-  text-align: justify;
-  font-family: Quicksand;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
+@media (min-width: 768px) {
+  .nela-txt-presentation {
+    color: #fff;
+    text-align: justify;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nela-txt-presentation {
+    color: #fff;
+    text-align: justify;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
 }
 
 .nela-background-img {
@@ -33,15 +47,29 @@
   margin-top: 5%;
 }
 
-.nela-txt-presentation-1 {
-  margin-left: 15%;
-  color: #fff;
-  text-align: justify;
-  font-family: Quicksand;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
+@media (min-width: 768px) {
+  .nela-txt-presentation-1 {
+    margin-left: 15%;
+    color: #fff;
+    text-align: justify;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+@media (min-width: 1200px) {
+  .nela-txt-presentation-1 {
+    margin-left: 15%;
+    color: #fff;
+    text-align: justify;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
 }
 
 .nela-computer {

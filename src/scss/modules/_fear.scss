@@ -18,12 +18,24 @@
   text-underline-position: from-font;
 }
 
-.fear-text-project {
-  text-align: justify;
-  font-size: 18px;
-  font-weight: 400;
-  margin-top: 2%;
-  color: white;
+@media (min-width: 768px) {
+  .fear-text-project {
+    text-align: justify;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 2%;
+    color: white;
+  }
+}
+
+@media (min-width: 1200px) {
+  .fear-text-project {
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 2%;
+    color: white;
+  }
 }
 
 .fear-link-next-project {
@@ -49,16 +61,30 @@
 .fear-link-next-project :hover {
   color: #ee4a51;
 }
+@media (min-width: 768px) {
+  .fear-text-conclusion {
+    margin-top: 2%;
+    color: #000;
+    text-align: justify;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
 
-.fear-text-conclusion {
-  margin-top: 2%;
-  color: #000;
-  text-align: justify;
-  font-family: Lato;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
+@media (min-width: 1200px) {
+  .fear-text-conclusion {
+    margin-top: 2%;
+    color: #000;
+    text-align: justify;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
 }
 
 .fear-theme-project {
