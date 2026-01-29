@@ -110,5 +110,37 @@
 
 .list-background-img {
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
+
+  background-image: url(../img/nouvelles_images_webp/list-img-background.png);
+}
+
+.project-navigation {
+  display: flex;
+  justify-content: end;
+
+  gap: 40px;
+  justify-content: end;
+  margin-right: 8%;
+  margin-top: 3%;
+  color: #000;
+  font-family: Quicksand;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 4.5%; /* 0.607px */
+  text-underline-offset: 25%; /* 3.375px */
+  text-underline-position: from-font;
+  text-transform: uppercase;
+  font-family: Quicksand;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: 4.5%; /* 0.675px */
+  text-underline-offset: 25%; /* 3.75px */
+  text-underline-position: from-font;
+  text-transform: uppercase;
 }
