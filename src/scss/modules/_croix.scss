@@ -6,6 +6,19 @@
   font-weight: 400;
   line-height: normal;
   margin-left: 5%;
+  align-items: center;
+}
+@media (max-width: 692px) {
+  .croix-title {
+    color: #ffffff;
+    font-family: "LEMON MILK";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 10%;
+    align-items: center;
+  }
 }
 
 .croix-txt-presentation {
@@ -16,6 +29,20 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  margin-left: -2%;
+}
+@media (max-width: 692px) {
+  .croix-txt-presentation {
+    color: #fff;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    align-items: baseline;
+    margin-left: 25%;
+    margin-right: -25%;
+  }
 }
 
 .croix-2-title {
@@ -28,6 +55,18 @@
   margin-left: 0%;
   margin-top: 10%;
 }
+@media (max-width: 692px) {
+  .croix-2-title {
+    color: #ffffff;
+    font-family: "LEMON MILK";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 10%;
+    align-items: center;
+  }
+}
 
 .croix_navigation {
   color: #ffffff;
@@ -38,11 +77,11 @@
   margin-top: 3%;
 }
 
-video {
-  border: 5px solid #fff;
-}
-
 .croix-separation {
   margin-top: 4%;
   margin-bottom: 4%;
+}
+
+.croix-video-contour {
+  border: 5px solid #fff;
 }

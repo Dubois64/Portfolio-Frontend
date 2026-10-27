@@ -204,6 +204,7 @@
   width: 100vw; /* toute la largeur de l’écran */
   height: auto; /* garde les proportions */
   display: block; /* supprime les marges fantômes */
+  background-color: white;
 }
 
 .home-overlay-text {
@@ -226,6 +227,7 @@
 @media (max-width: 692px) {
   .home-background-img {
     background-image: none;
+    background-color: #fff;
   }
 }
 
