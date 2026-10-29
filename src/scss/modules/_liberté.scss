@@ -35,10 +35,6 @@
   height: 100vh;
 }
 
-body {
-  background-color: black;
-}
-
 img {
   width: 100%;
   height: auto;
@@ -99,4 +95,8 @@ img {
   max-width: 50%;
   display: flex;
   justify-content: center;
+}
+
+.fissure {
+  background-color: black;
 }

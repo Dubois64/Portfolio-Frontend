@@ -12,7 +12,7 @@
 }
 
 .list-type-project {
-  color: #000;
+  color: #fff;
   font-family: "LEMON MILK";
   font-size: 20px;
   font-style: normal;
@@ -77,7 +77,7 @@
 }
 
 .list-title-underline {
-  color: #000;
+  color: white;
   font-family: "LEMON MILK";
   font-size: 85px;
   font-style: normal;
@@ -115,6 +115,9 @@
   background-image: url(../img/nouvelles_images_webp/list-img-background_12zon\ .webp);
 }
 
+.list-background-img-1 {
+  background-color: black;
+}
 .project-navigation {
   display: flex;
   justify-content: end;
@@ -122,7 +125,7 @@
   justify-content: end;
   margin-right: 8%;
   margin-top: 3%;
-  color: #000;
+  color: white;
   font-family: Quicksand;
   text-decoration-line: underline;
   text-decoration-style: solid;
@@ -163,12 +166,17 @@
 }
 
 .list-img-1 {
-  display: block;
-  width: 100%;
-  height: auto;
-  margin-top: 10%;
+  border: 1px solid white;
+  box-sizing: border-box;
+  transition:
+    border-color 0.5s ease,
+    transform 0.5s ease;
 }
 
+.list-img-1:hover {
+  border-width: 4px;
+  transform: scale(1.02);
+}
 .list-title-flex {
   margin-top: 10px;
   margin-left: 0;
@@ -181,11 +189,12 @@
   font-weight: 400;
   line-height: 1.2;
   text-transform: uppercase;
+  color: #fff;
 }
 
 .list-type-project {
   margin: 4px 0 0;
-  color: #000;
+  color: white;
   font-family: "LEMON MILK";
   font-size: 14px;
   font-weight: 300;
@@ -196,15 +205,4 @@
 .list-project-1 a {
   display: block;
   width: 100%;
-}
-
-.list-img-1 {
-  display: block;
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-  margin-top: 10%;
-
-  border: 1px solid #fff;
-  box-sizing: border-box;
 }
