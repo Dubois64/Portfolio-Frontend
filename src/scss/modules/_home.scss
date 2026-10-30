@@ -62,7 +62,7 @@
   text-align: justify;
   font-family: Quicksand;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 600;
   align-self: stretch;
   margin-top: 5%;
 }
@@ -75,13 +75,6 @@
     margin-top: 10%;
     text-align: center;
   }
-}
-
-.home-presentation {
-  display: flex;
-  align-items: center;
-  margin-top: 8%;
-  display: block;
 }
 
 @media (max-width: 992px) {
@@ -156,7 +149,7 @@
 
 .home-titre-propos {
   color: #000;
-  text-align: right;
+  text-align: left;
   font-family: "LEMON MILK";
   font-size: 48px;
   font-style: normal;
@@ -223,6 +216,11 @@
 
 .home-background-img {
   background-image: url(../img/nouvelles_images_webp/background.jpg);
+  background-size: cover;
+
+  background-repeat: no-repeat;
+
+  min-height: 100vh;
 }
 
 @media (max-width: 692px) {
@@ -242,5 +240,18 @@
   .profile {
     display: block;
     margin: 0 auto;
+    max-width: 30%;
   }
+}
+
+.home-presentation {
+  margin-top: 8%;
+}
+
+.profile {
+  display: block;
+  width: 60%;
+  max-width: 500px;
+  height: auto;
+  margin: 0 auto;
 }

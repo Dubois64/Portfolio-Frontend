@@ -21,6 +21,33 @@
   text-transform: uppercase;
 }
 
+@media (max-width: 692px) {
+  .list-type-project {
+    color: #fff;
+    font-family: "LEMON MILK";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 692px) {
+  .list-description {
+    margin-top: 5%;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 300;
+    -webkit-mask-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0)
+    );
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  }
+}
+
 .list-description {
   margin-top: 5%;
   font-family: Quicksand;
