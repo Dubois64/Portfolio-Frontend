@@ -5,3 +5,27 @@
 .epiphone-flex {
   display: flex;
 }
+
+.epiphone-title {
+  color: #ffffff;
+  font-family: "LEMON MILK";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-items: center;
+  margin-left: 5%;
+}
+
+@media (max-width: 692px) {
+  .epiphone-title {
+    color: #ffffff;
+    font-family: "LEMON MILK";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-items: start;
+    margin-left: 5%;
+  }
+}
