@@ -216,17 +216,13 @@
 
 .home-background-img {
   background-image: url(../img/nouvelles_images_webp/background.jpg);
-  background-size: cover;
-
-  background-repeat: no-repeat;
-
-  min-height: 100vh;
 }
 
 @media (max-width: 692px) {
   .home-background-img {
     background-image: none;
     background-color: #fff;
+    min-height: 100vh;
   }
 }
 
